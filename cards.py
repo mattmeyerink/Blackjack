@@ -29,19 +29,19 @@ class Deck:
         """Initialize the deck as a full 52 card deck."""
         self.cards.clear()
 
-        ace_spades = Card("spade", "ace", 11)
-        two_spades = Card("spade", "two", 2)
-        three_spades = Card("spade", "three", 3)
-        four_spades = Card("spade", "four", 4)
-        five_spades = Card("spade", "five", 5)
-        six_spades = Card("spade", "six", 6)
-        seven_spades = Card("spade", "seven", 7)
-        eight_spades = Card("spade", "eight", 8)
-        nine_spades = Card("spade", "nine", 9)
-        ten_spades = Card("spade", "ten", 10)
-        jack_spades = Card("spade", "jack", 10)
-        queen_spades = Card("spade", "queen", 10)
-        king_spades = Card("spade", "king", 10)
+        ace_spades = Card("spades", "ace", 11)
+        two_spades = Card("spades", "two", 2)
+        three_spades = Card("spades", "three", 3)
+        four_spades = Card("spades", "four", 4)
+        five_spades = Card("spades", "five", 5)
+        six_spades = Card("spades", "six", 6)
+        seven_spades = Card("spades", "seven", 7)
+        eight_spades = Card("spades", "eight", 8)
+        nine_spades = Card("spades", "nine", 9)
+        ten_spades = Card("spades", "ten", 10)
+        jack_spades = Card("spades", "jack", 10)
+        queen_spades = Card("spades", "queen", 10)
+        king_spades = Card("spades", "king", 10)
 
         ace_clubs = Card("clubs", "ace", 11)
         two_clubs = Card("clubs", "two", 2)
@@ -71,36 +71,36 @@ class Deck:
         queen_hearts = Card("hearts", "queen", 10)
         king_hearts = Card("hearts", "king", 10)
 
-        ace_diamonds = Card("diamond", "ace", 11)
-        two_diamonds = Card("diamond", "two", 2)
-        three_diamonds = Card("diamond", "three", 3)
-        four_diamonds = Card("diamond", "four", 4)
-        five_diamonds = Card("diamond", "five", 5)
-        six_diamonds = Card("diamond", "six", 6)
-        seven_diamonds = Card("diamond", "seven", 7)
-        eight_diamonds = Card("diamond", "eight", 8)
-        nine_diamonds = Card("diamond", "nine", 9)
-        ten_diamonds = Card("diamond", "ten", 10)
-        jack_diamonds = Card("diamond", "jack", 10)
-        queen_diamonds = Card("diamond", "queen", 10)
-        king_diamonds = Card("diamond", "king", 10)
+        ace_diamonds = Card("diamonds", "ace", 11)
+        two_diamonds = Card("diamonds", "two", 2)
+        three_diamonds = Card("diamonds", "three", 3)
+        four_diamonds = Card("diamonds", "four", 4)
+        five_diamonds = Card("diamonds", "five", 5)
+        six_diamonds = Card("diamonds", "six", 6)
+        seven_diamonds = Card("diamonds", "seven", 7)
+        eight_diamonds = Card("diamonds", "eight", 8)
+        nine_diamonds = Card("diamonds", "nine", 9)
+        ten_diamonds = Card("diamonds", "ten", 10)
+        jack_diamonds = Card("diamonds", "jack", 10)
+        queen_diamonds = Card("diamonds", "queen", 10)
+        king_diamonds = Card("diamonds", "king", 10)
 
         self.cards += [ace_spades, two_spades, three_spades, four_spades,
                        five_spades, six_spades, seven_spades, eight_spades,
-                       seven_spades, eight_spades, nine_spades, ten_spades, 
+                       nine_spades, ten_spades, 
                        jack_spades, queen_spades, king_spades]
 
         self.cards += [ace_clubs, two_clubs, three_clubs, four_clubs,
                        five_clubs, six_clubs, seven_clubs, eight_clubs,
-                       seven_clubs, eight_clubs, nine_clubs, ten_clubs, 
+                       nine_clubs, ten_clubs, 
                        jack_clubs, queen_clubs, king_clubs]
 
         self.cards += [ace_hearts, two_hearts, three_hearts, four_hearts,
                        five_hearts, six_hearts, seven_hearts, eight_hearts,
-                       seven_hearts, eight_hearts, nine_hearts, ten_hearts, 
+                    nine_hearts, ten_hearts, 
                        jack_hearts, queen_hearts, king_hearts]
 
         self.cards += [ace_diamonds, two_diamonds, three_diamonds, four_diamonds,
                        five_diamonds, six_diamonds, seven_diamonds, eight_diamonds,
-                       seven_diamonds, eight_diamonds, nine_diamonds, ten_diamonds, 
+                       nine_diamonds, ten_diamonds, 
                        jack_diamonds, queen_diamonds, king_diamonds]
